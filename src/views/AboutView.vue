@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <h1>This is an about page</h1>
+  <div class="container">
+    <h1 class="mt-10 text-center text-3xl text-gray-600">About Page</h1>
   </div>
 </template>
