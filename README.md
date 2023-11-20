@@ -2,7 +2,7 @@
 
 ## Description
 
-AuthUI is the login/register app intented to be included into the Vue.js frontend app for user registering/authenticating or to be used separately.
+This app presents two variants of Dynamic Alert Component for Vue 3 - with and without of cva usage. Both are made in the same design.
 
 ## Used technologies
 
