@@ -6,19 +6,23 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: () => import('@/views/HomeView.vue'),
+    component: () => import('@/views/PlainAlertView.vue'),
+    meta: { layout: DefaultLayout }
+    // path: '/',
+    // name: 'plain_alert',
+    // component: () => import('@/views/PlainAlertView.vue'),
+    // meta: { layout: DefaultLayout }
+  },
+  {
+    path: '/plain_alert',
+    name: 'plain_alert',
+    component: () => import('@/views/PlainAlertView.vue'),
     meta: { layout: DefaultLayout }
   },
   {
-    path: '/',
-    name: 'home',
-    component: () => import('@/views/HomeView.vue'),
-    meta: { layout: DefaultLayout }
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: () => import('@/views/AboutView.vue'),
+    path: '/cva_alert',
+    name: 'cva_alert',
+    component: () => import('@/views/CvaAlertView.vue'),
     meta: { layout: DefaultLayout }
   },
   {

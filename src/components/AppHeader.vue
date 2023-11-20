@@ -19,22 +19,23 @@ import { Icon } from '@iconify/vue'
             to="/"
             class="rounded-md px-3 py-2 text-lg font-medium text-gray-300 hover:bg-gray-700 hover:text-orange-400"
             aria-current="page"
-            >Vue3-Toster</router-link
+            >Vue3 Alert</router-link
           >
         </div>
 
         <div>
           <div class="flex space-x-4">
             <router-link
-              to="/"
+              to="/plain_alert"
               class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-white"
               aria-current="page"
-              >Home</router-link
+              >Alert</router-link
             >
             <router-link
-              to="/about"
+              to="/cva_alert"
               class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-white"
-              >About</router-link
+              aria-current="page"
+              >Alert (w/cva)</router-link
             >
           </div>
         </div>
