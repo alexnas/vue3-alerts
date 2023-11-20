@@ -21,14 +21,16 @@ import { Icon } from '@iconify/vue'
           <div class="">
             <div class="flex space-x-1">
               <router-link
-                to="/"
-                class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-orange-400 hover:text-white"
-                >Home</router-link
+                to="/plain_alert"
+                class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-white"
+                aria-current="page"
+                >Alert</router-link
               >
               <router-link
-                to="/about"
-                class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-orange-400 hover:text-white"
-                >About</router-link
+                to="/cva_alert"
+                class="rounded-md px-3 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-white"
+                aria-current="page"
+                >Alert (w/cva)</router-link
               >
             </div>
           </div>
